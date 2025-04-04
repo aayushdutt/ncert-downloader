@@ -18,6 +18,14 @@ python download.py
 python merge_pdfs.py
 ```
 
-### Screenshot
+#### Screenshot
 
 ![screenshot](./screenshot.png)
+
+#### Generating `data.json` with latest data
+
+This script uses the data in `data.json` to scrape the books. If it's outdated, you can regenerate it using the latest data.
+
+1. Get the latest relevant source from [view-source:https://ncert.nic.in/textbook.php](view-source:https://ncert.nic.in/textbook.php) and paste it to `sourceScript.js`
+2. Cleanup the script (format, remove comments etc)
+3. Run `python parse_script.py`
