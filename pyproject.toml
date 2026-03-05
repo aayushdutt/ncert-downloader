@@ -1,0 +1,19 @@
+[project]
+name = "ncert-downloader"
+version = "0.1.0"
+description = "Download NCERT textbooks as merged PDFs"
+requires-python = ">=3.10"
+dependencies = [
+    "pypdf>=6.7.4",
+    "questionary>=2.0.0",
+    "requests>=2.31.0",
+    "rich>=13.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

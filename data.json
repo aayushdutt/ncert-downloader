@@ -1,12 +1,26 @@
 {
-  "1": {
+  "14": {
     "English": [
       {
-        "text": "Mridang",
+        "text": "Marigold",
         "code": "aemr1",
         "chapters": "0-9"
+      },
+      {
+        "text": "Raindrops",
+        "code": "aerd1",
+        "chapters": "0-19"
       }
     ],
+    "Vocational": [
+      {
+        "text": "Organic Farming",
+        "code": "geof1",
+        "chapters": "0-5"
+      }
+    ]
+  },
+  "1": {
     "Mathematics": [
       {
         "text": "Joyful-Mathematics (English)",
@@ -121,6 +135,11 @@
       {
         "text": "Joyful-Mathematics (Kashmiri)",
         "code": "aksjm1",
+        "chapters": "0-13"
+      },
+      {
+        "text": "Riyazi Ka Jadoo-I(Urdu)",
+        "code": "auri1",
         "chapters": "0-13"
       }
     ],
@@ -255,6 +274,11 @@
         "text": "Joyful-Mathematics (Kashmiri)",
         "code": "bksjm1",
         "chapters": "0-11"
+      },
+      {
+        "text": "Riyazi ka Jadu-II(Urdu)",
+        "code": "buri1",
+        "chapters": "0-15"
       }
     ],
     "Hindi": [
@@ -269,6 +293,11 @@
         "text": "Mridang",
         "code": "bemr1",
         "chapters": "0-13"
+      },
+      {
+        "text": "Raindrops",
+        "code": "berd1",
+        "chapters": "0-15"
       }
     ],
     "Urdu": [
@@ -280,7 +309,63 @@
     ]
   },
   "3": {
+    "Hindi": [
+      {
+        "text": "Rimjhim",
+        "code": "chhn1",
+        "chapters": "0-13"
+      },
+      {
+        "text": "Veena",
+        "code": "chve1",
+        "chapters": "0-18"
+      }
+    ],
+    "Environmental Studies": [
+      {
+        "text": "Looking Around",
+        "code": "ceap1",
+        "chapters": "0-24"
+      },
+      {
+        "text": "Aas-Pass",
+        "code": "chap1",
+        "chapters": "0-24"
+      },
+      {
+        "text": "Aas-Pass(urdu)",
+        "code": "cuap1",
+        "chapters": "0-24"
+      }
+    ],
+    "English": [
+      {
+        "text": "Marigold",
+        "code": "ceen1",
+        "chapters": "0-10"
+      },
+      {
+        "text": "Santoor",
+        "code": "cesa1",
+        "chapters": "0-12"
+      }
+    ],
     "Mathematics": [
+      {
+        "text": "Mathematics",
+        "code": "cemh1",
+        "chapters": "0-14"
+      },
+      {
+        "text": "Ganit",
+        "code": "chmh1",
+        "chapters": "0-14"
+      },
+      {
+        "text": "Riyazi Ka Jadoo-III(Urdu)",
+        "code": "curi1",
+        "chapters": "0-14"
+      },
       {
         "text": "Maths Mela",
         "code": "cemm1",
@@ -380,27 +465,33 @@
         "text": "Maths Mela (Marathi)",
         "code": "cmrmm1",
         "chapters": "0-14"
-      }
-    ],
-    "Hindi": [
+      },
       {
-        "text": "Veena",
-        "code": "chve1",
-        "chapters": "0-18"
+        "text": "Maths Mela (Konkani)",
+        "code": "ckomm1",
+        "chapters": "0-14"
+      },
+      {
+        "text": "Maths Mela (Sindhi)",
+        "code": "csimm1",
+        "chapters": "0-14"
+      },
+      {
+        "text": "Maths Mela (Kashmiri)",
+        "code": "cksmm1",
+        "chapters": "0-14"
       }
     ],
     "Urdu": [
       {
+        "text": "Ibtedai Urdu",
+        "code": "culb1",
+        "chapters": "0-20"
+      },
+      {
         "text": "Sitar",
         "code": "cust1",
         "chapters": "0-19"
-      }
-    ],
-    "English": [
-      {
-        "text": "Santoor",
-        "code": "cesa1",
-        "chapters": "0-12"
       }
     ],
     "The World Around Us": [
@@ -442,6 +533,81 @@
       {
         "text": "Our Wondrous World (Telugu)",
         "code": "ctlev1",
+        "chapters": "0-12"
+      },
+      {
+        "text": "Our Wondrous World (Gujrati)",
+        "code": "cgjev1",
+        "chapters": "0-12"
+      },
+      {
+        "text": "Our Wondrous World (Manipuri)",
+        "code": "cmnev1",
+        "chapters": "0-12"
+      },
+      {
+        "text": "Our Wondrous World (Sanskrit)",
+        "code": "cskev1",
+        "chapters": "0-12"
+      },
+      {
+        "text": "Our Wondrous World (Assamese)",
+        "code": "casev1",
+        "chapters": "0-12"
+      },
+      {
+        "text": "Our Wondrous World (Bodo)",
+        "code": "cbdev1",
+        "chapters": "0-12"
+      },
+      {
+        "text": "Our Wondrous World (Punjabi)",
+        "code": "cpnev1",
+        "chapters": "0-12"
+      },
+      {
+        "text": "Our Wondrous World (Malayalam)",
+        "code": "cmlev1",
+        "chapters": "0-12"
+      },
+      {
+        "text": "Our Wondrous World (Maithili)",
+        "code": "cmtev1",
+        "chapters": "0-12"
+      },
+      {
+        "text": "Our Wondrous World (Dogri)",
+        "code": "cdgev1",
+        "chapters": "0-12"
+      },
+      {
+        "text": "Our Wondrous World (Kannada)",
+        "code": "cknev1",
+        "chapters": "0-12"
+      },
+      {
+        "text": "Our Wondrous World (Santhali)",
+        "code": "csnev1",
+        "chapters": "0-12"
+      },
+      {
+        "text": "Our Wondrous World (Tamil)",
+        "code": "ctmev1",
+        "chapters": "0-12"
+      },
+      {
+        "text": "Our Wondrous World (Sindhi)",
+        "code": "csiev1",
+        "chapters": "0-12"
+      },
+      {
+        "text": "Our Wondrous World (Kashmiri)",
+        "code": "cksev1",
+        "chapters": "0-12"
+      },
+      {
+        "text": "Our Wondrous World (Konkani)",
+        "code": "ckoev1",
         "chapters": "0-12"
       }
     ],
@@ -500,6 +666,66 @@
         "text": "Bansuri - I (Gujarati)",
         "code": "cgjbu1",
         "chapters": "0-20"
+      },
+      {
+        "text": "Bansuri - I (Dogri)",
+        "code": "cdgbu1",
+        "chapters": "0-20"
+      },
+      {
+        "text": "Bansuri - I (Konkani)",
+        "code": "ckobu1",
+        "chapters": "0-20"
+      },
+      {
+        "text": "Bansuri - I (Santhali)",
+        "code": "csnbu1",
+        "chapters": "0-20"
+      },
+      {
+        "text": "Bansuri - I (Tamil)",
+        "code": "ctmbu1",
+        "chapters": "0-20"
+      },
+      {
+        "text": "Bansuri - I (Telugu)",
+        "code": "ctlbu1",
+        "chapters": "0-20"
+      },
+      {
+        "text": "Bansuri - I (Assamese)",
+        "code": "casbu1",
+        "chapters": "0-20"
+      },
+      {
+        "text": "Bansuri - I (Kannada)",
+        "code": "cknbu1",
+        "chapters": "0-20"
+      },
+      {
+        "text": "Bansuri - I (Sanskrit)",
+        "code": "cskbu1",
+        "chapters": "0-20"
+      },
+      {
+        "text": "Bansuri - I (Malayalam)",
+        "code": "cmlbu1",
+        "chapters": "0-20"
+      },
+      {
+        "text": "Bansuri - I (Odia)",
+        "code": "corbu1",
+        "chapters": "0-20"
+      },
+      {
+        "text": "Bansuri - I (Sindhi)",
+        "code": "csibu1",
+        "chapters": "0-20"
+      },
+      {
+        "text": "Bansuri - I (Kashmiri)",
+        "code": "cksbu1",
+        "chapters": "0-20"
       }
     ],
     "Physical Education and Well Being": [
@@ -547,6 +773,76 @@
         "text": "Khel Yoga (Nepali)",
         "code": "cnpky1",
         "chapters": "0-7"
+      },
+      {
+        "text": "Khel Yoga (Odia)",
+        "code": "corky1",
+        "chapters": "0-7"
+      },
+      {
+        "text": "Khel Yoga (Assamese)",
+        "code": "casky1",
+        "chapters": "0-7"
+      },
+      {
+        "text": "Khel Yoga (Dogri)",
+        "code": "cdgky1",
+        "chapters": "0-7"
+      },
+      {
+        "text": "Khel Yoga (Punjabi)",
+        "code": "cpnky1",
+        "chapters": "0-7"
+      },
+      {
+        "text": "Khel Yoga (Sanskrit)",
+        "code": "cskky1",
+        "chapters": "0-7"
+      },
+      {
+        "text": "Khel Yoga (Santhali)",
+        "code": "csnky1",
+        "chapters": "0-7"
+      },
+      {
+        "text": "Khel Yoga (Tamil)",
+        "code": "ctmky1",
+        "chapters": "0-7"
+      },
+      {
+        "text": "Khel Yoga (Marathi)",
+        "code": "cmrky1",
+        "chapters": "0-7"
+      },
+      {
+        "text": "Khel Yoga (Bodo)",
+        "code": "cbdky1",
+        "chapters": "0-7"
+      },
+      {
+        "text": "Khel Yoga (Telugu)",
+        "code": "ctlky1",
+        "chapters": "0-7"
+      },
+      {
+        "text": "Khel Yoga (Maithili)",
+        "code": "cmtky1",
+        "chapters": "0-7"
+      },
+      {
+        "text": "Khel Yoga (Urdu)",
+        "code": "cuky1",
+        "chapters": "0-7"
+      },
+      {
+        "text": "Khel Yoga (Sindhi)",
+        "code": "csiky1",
+        "chapters": "0-7"
+      },
+      {
+        "text": "Khel Yoga (Kashmiri)",
+        "code": "cksky1",
+        "chapters": "0-7"
       }
     ]
   },
@@ -566,6 +862,21 @@
         "text": "Riyazi Ka Jadu(Urdu)",
         "code": "duri1",
         "chapters": "0-14"
+      },
+      {
+        "text": "Math-Mela",
+        "code": "demm1",
+        "chapters": "0-14"
+      },
+      {
+        "text": "Ganit Mela",
+        "code": "dhmm1",
+        "chapters": "0-14"
+      },
+      {
+        "text": "Riyazi Mela",
+        "code": "dumm1",
+        "chapters": "0-14"
       }
     ],
     "Hindi": [
@@ -573,6 +884,11 @@
         "text": "Rimjhim",
         "code": "dhhn1",
         "chapters": "0-14"
+      },
+      {
+        "text": "Veena",
+        "code": "dhve1",
+        "chapters": "0-13"
       }
     ],
     "Environmental Studies": [
@@ -592,11 +908,67 @@
         "chapters": "0-27"
       }
     ],
+    "The World Around Us": [
+      {
+        "text": "Our Wonderous World",
+        "code": "deev1",
+        "chapters": "0-10"
+      },
+      {
+        "text": "Hamara Adhbhut Sansar",
+        "code": "dhev1",
+        "chapters": "0-10"
+      },
+      {
+        "text": "Hamari Hairatangez Duniya ",
+        "code": "duev1",
+        "chapters": "0-10"
+      },
+      {
+        "text": "Our Wonderous World (Punjabi)",
+        "code": "dpev1",
+        "chapters": "0-10"
+      }
+    ],
     "English": [
       {
         "text": "Marigold",
         "code": "deen1",
         "chapters": "0-9"
+      },
+      {
+        "text": "Santoor",
+        "code": "desa1",
+        "chapters": "0-12"
+      }
+    ],
+    "Arts": [
+      {
+        "text": "Bansuri",
+        "code": "debu1",
+        "chapters": "0-18"
+      },
+      {
+        "text": "Bansuri - I (Hindi)",
+        "code": "dhbu1",
+        "chapters": "0-18"
+      },
+      {
+        "text": "Bansuri - I (Urdu)",
+        "code": "dubu1",
+        "chapters": "0-18"
+      }
+    ],
+    "Physical Education and Well Being": [
+      {
+        "text": "Khel Yoga",
+        "code": "deky1",
+        "chapters": "0-3"
+      },
+      {
+        "text": "Khel Yoga(Hindi)",
+        "code": "dhky1",
+        "chapters": "0-3"
       }
     ],
     "Urdu": [
@@ -604,11 +976,26 @@
         "text": "Ibtedai Urdu-IV",
         "code": "dulb1",
         "chapters": "0-22"
+      },
+      {
+        "text": "Sitaar",
+        "code": "dust1",
+        "chapters": "0-14"
       }
     ]
   },
   "5": {
     "Mathematics": [
+      {
+        "text": "Math-Mela",
+        "code": "eemm1",
+        "chapters": "0-15"
+      },
+      {
+        "text": "Ganit-Mela",
+        "code": "ehmm1",
+        "chapters": "0-15"
+      },
       {
         "text": "Math-Magic",
         "code": "eemh1",
@@ -627,6 +1014,11 @@
     ],
     "Hindi": [
       {
+        "text": "Veena",
+        "code": "ehve1",
+        "chapters": "0-12"
+      },
+      {
         "text": "Rimjhim",
         "code": "ehhn1",
         "chapters": "0-18"
@@ -634,9 +1026,77 @@
     ],
     "English": [
       {
+        "text": "Santoor",
+        "code": "eesa1",
+        "chapters": "0-10"
+      },
+      {
         "text": "Marigold",
         "code": "eeen1",
         "chapters": "0-10"
+      }
+    ],
+    "The World Around Us": [
+      {
+        "text": "Our Wonderous World",
+        "code": "eeev1",
+        "chapters": "0-10"
+      },
+      {
+        "text": "Hamara Adbhut Sansar",
+        "code": "ehev1",
+        "chapters": "0-10"
+      },
+      {
+        "text": "Hamari Hairatangez Duniya",
+        "code": "euev1",
+        "chapters": "0-10"
+      }
+    ],
+    "Arts": [
+      {
+        "text": "Bansuri",
+        "code": "eebu1",
+        "chapters": "0-19"
+      },
+      {
+        "text": "Bansuri (Hindi)",
+        "code": "ehbu1",
+        "chapters": "0-19"
+      },
+      {
+        "text": "Bansuri (Urdu)",
+        "code": "eubu1",
+        "chapters": "0-19"
+      }
+    ],
+    "Physical Education and Well Being": [
+      {
+        "text": "Khel Yoga",
+        "code": "eeky1",
+        "chapters": "0-3"
+      }
+    ],
+    "Urdu": [
+      {
+        "text": "Sitaar",
+        "code": "eust1",
+        "chapters": "0-18"
+      },
+      {
+        "text": "Ibtedai Urdu Class-V",
+        "code": "eulb1",
+        "chapters": "0-22"
+      },
+      {
+        "text": "math-magic-V",
+        "code": "euma1",
+        "chapters": "0-14"
+      },
+      {
+        "text": "EVS-V (Urdu)",
+        "code": "euev1",
+        "chapters": "0-22"
       }
     ],
     "Environmental Studies": [
@@ -655,13 +1115,6 @@
         "code": "euev1",
         "chapters": "0-22"
       }
-    ],
-    "Urdu": [
-      {
-        "text": "Ibtedai Urdu Class-V",
-        "code": "eulb1",
-        "chapters": "0-22"
-      }
     ]
   },
   "6": {
@@ -670,6 +1123,21 @@
         "text": "Malhar",
         "code": "fhml1",
         "chapters": "0-13"
+      },
+      {
+        "text": "Vasant",
+        "code": "fhvs1",
+        "chapters": "0-14"
+      },
+      {
+        "text": "Durva",
+        "code": "fhdv1",
+        "chapters": "0-28"
+      },
+      {
+        "text": "Bal Ram Katha",
+        "code": "fhbr1",
+        "chapters": "0-12"
       }
     ],
     "Vocational Education": [
@@ -716,6 +1184,71 @@
       {
         "text": "Kaushal Bodh (Malayalam)",
         "code": "fmlkb1",
+        "chapters": "0-6"
+      },
+      {
+        "text": "Kaushal Bodh (Kannada)",
+        "code": "fknkb1",
+        "chapters": "0-6"
+      },
+      {
+        "text": "Kaushal Bodh (Manipuri)",
+        "code": "fmnkb1",
+        "chapters": "0-6"
+      },
+      {
+        "text": "Kaushal Bodh (Tamil)",
+        "code": "ftmkb1",
+        "chapters": "0-6"
+      },
+      {
+        "text": "Kaushal Bodh (Gujarati)",
+        "code": "fgjkb1",
+        "chapters": "0-6"
+      },
+      {
+        "text": "Kaushal Bodh (Maithili)",
+        "code": "fmtkb1",
+        "chapters": "0-6"
+      },
+      {
+        "text": "Kaushal Bodh (Assamese)",
+        "code": "faskb1",
+        "chapters": "0-6"
+      },
+      {
+        "text": "Kaushal Bodh (Nepali)",
+        "code": "fnpkb1",
+        "chapters": "0-6"
+      },
+      {
+        "text": "Kaushal Bodh (Sanskrit)",
+        "code": "fskkb1",
+        "chapters": "0-6"
+      },
+      {
+        "text": "Kaushal Bodh (Kashmiri)",
+        "code": "fkskb1",
+        "chapters": "0-6"
+      },
+      {
+        "text": "Kaushal Bodh (Marathi)",
+        "code": "fmrkb1",
+        "chapters": "0-6"
+      },
+      {
+        "text": "Kaushal Bodh (Telugu)",
+        "code": "ftlkb1",
+        "chapters": "0-6"
+      },
+      {
+        "text": "Kaushal Bodh (Santhali)",
+        "code": "fsnkb1",
+        "chapters": "0-6"
+      },
+      {
+        "text": "Kaushal Bodh (Sindhi)",
+        "code": "fsikb1",
         "chapters": "0-6"
       }
     ],
@@ -784,6 +1317,56 @@
         "text": "Khel Yatra (Malayalam)",
         "code": "fmlky1",
         "chapters": "0-5"
+      },
+      {
+        "text": "Khel Yatra (Bodo)",
+        "code": "fbdky1",
+        "chapters": "0-5"
+      },
+      {
+        "text": "Khel Yatra (Kashmiri)",
+        "code": "fksky1",
+        "chapters": "0-5"
+      },
+      {
+        "text": "Khel Yatra (Manipuri)",
+        "code": "fmnky1",
+        "chapters": "0-5"
+      },
+      {
+        "text": "Khel Yatra (Marathi)",
+        "code": "fmrky1",
+        "chapters": "0-5"
+      },
+      {
+        "text": "Khel Yatra (Sanskrit)",
+        "code": "fskky1",
+        "chapters": "0-5"
+      },
+      {
+        "text": "Khel Yatra (Santhali)",
+        "code": "fsnky1",
+        "chapters": "0-5"
+      },
+      {
+        "text": "Khel Yatra (Sindhi)",
+        "code": "fsiky1",
+        "chapters": "0-5"
+      },
+      {
+        "text": "Khel Yatra (Maithili)",
+        "code": "fmtky1",
+        "chapters": "0-5"
+      },
+      {
+        "text": "Khel Yatra (Gujarati)",
+        "code": "fgjky1",
+        "chapters": "0-5"
+      },
+      {
+        "text": "Jismani Taleem aur Tandurusti",
+        "code": "fukl1",
+        "chapters": "0-5"
       }
     ],
     "English": [
@@ -791,6 +1374,16 @@
         "text": "Poorvi",
         "code": "fepr1",
         "chapters": "0-5"
+      },
+      {
+        "text": "Honeysuckle",
+        "code": "fehl1",
+        "chapters": "0-8"
+      },
+      {
+        "text": "A Pact With The Sun",
+        "code": "fepw1",
+        "chapters": "0-7"
       }
     ],
     "Mathematics": [
@@ -803,9 +1396,169 @@
         "text": "Ganita Prakash (Hindi)",
         "code": "fhgp1",
         "chapters": "0-10"
+      },
+      {
+        "text": "Ganita Prakash (Odia)",
+        "code": "forgp1",
+        "chapters": "0-10"
+      },
+      {
+        "text": "Ganita Prakash (Bodo)",
+        "code": "fbdgp1",
+        "chapters": "0-10"
+      },
+      {
+        "text": "Ganita Prakash (Malayalam)",
+        "code": "fmlgp1",
+        "chapters": "0-10"
+      },
+      {
+        "text": "Ganita Prakash (Punjabi)",
+        "code": "fpngp1",
+        "chapters": "0-10"
+      },
+      {
+        "text": "Ganita Prakash (Sanskrit)",
+        "code": "fskgp1",
+        "chapters": "0-10"
+      },
+      {
+        "text": "Ganita Prakash (Kannada)",
+        "code": "fkngp1",
+        "chapters": "0-10"
+      },
+      {
+        "text": "Ganita Prakash (Tamil)",
+        "code": "ftmgp1",
+        "chapters": "0-10"
+      },
+      {
+        "text": "Ganita Prakash (Marathi)",
+        "code": "fmrgp1",
+        "chapters": "0-10"
+      },
+      {
+        "text": "Ganita Prakash (Bengali)",
+        "code": "fbngp1",
+        "chapters": "0-10"
+      },
+      {
+        "text": "Ganita Prakash (Telugu)",
+        "code": "ftlgp1",
+        "chapters": "0-10"
+      },
+      {
+        "text": "Ganita Prakash (Maithili)",
+        "code": "fmtgp1",
+        "chapters": "0-10"
+      },
+      {
+        "text": "Ganita Prakash (Dogri)",
+        "code": "fdggp1",
+        "chapters": "0-10"
+      },
+      {
+        "text": "Ganita Prakash (Nepali)",
+        "code": "fnpgp1",
+        "chapters": "0-10"
+      },
+      {
+        "text": "Ganita Prakash (Urdu)",
+        "code": "fugp1",
+        "chapters": "0-10"
+      },
+      {
+        "text": "Ganita Prakash (Assamese)",
+        "code": "fasgp1",
+        "chapters": "0-10"
+      },
+      {
+        "text": "Ganita Prakash (Gujarati)",
+        "code": "fgjgp1",
+        "chapters": "0-10"
+      },
+      {
+        "text": "Ganita Prakash (Manipuri)",
+        "code": "fmngp1",
+        "chapters": "0-10"
+      },
+      {
+        "text": "Ganita Prakash (Konkani)",
+        "code": "fkogp1",
+        "chapters": "0-10"
+      },
+      {
+        "text": "Ganita Prakash (Santhali)",
+        "code": "fsngp1",
+        "chapters": "0-10"
+      },
+      {
+        "text": "Ganita Prakash (Sindhi)",
+        "code": "fsigp1",
+        "chapters": "0-10"
+      },
+      {
+        "text": "Ganita Prakash (Kashmiri)",
+        "code": "fksgp1",
+        "chapters": "0-10"
+      },
+      {
+        "text": "Exemplar Problem(English)",
+        "code": "feep1",
+        "chapters": "0-9"
+      },
+      {
+        "text": "Exemplar Problem(Hindi)",
+        "code": "fhep1",
+        "chapters": "0-9"
       }
     ],
     "Social Science": [
+      {
+        "text": "History - Our Past",
+        "code": "fess1",
+        "chapters": "0-10"
+      },
+      {
+        "text": "The Earth Our Habitat",
+        "code": "fess2",
+        "chapters": "0-6"
+      },
+      {
+        "text": "Hamare Ateet",
+        "code": "fhss1",
+        "chapters": "0-10"
+      },
+      {
+        "text": "Social And Political Life",
+        "code": "fess3",
+        "chapters": "0-8"
+      },
+      {
+        "text": "Samajik Evem Rajnitik Jeevan",
+        "code": "fhss3",
+        "chapters": "0-8"
+      },
+      {
+        "text": "Prithavi Hamara Avas (Bhugol)",
+        "code": "fhss2",
+        "chapters": "0-6"
+      },
+      {
+        "text": "Hamare Mazi(Urdu)",
+        "code": "fuhm1",
+        "chapters": "0-11"
+      },
+      {
+        "text": "Zameen Hamara Maskan(Urdu)",
+        "code": "fuzm1",
+        "chapters": "0-8"
+      },
+      {
+        "text": "Samazi Aur Siyasi Zindagi(Urdu)",
+        "code": "fuss1",
+        "chapters": "0-9"
+      },
       {
         "text": "Exploring Society India and Beyond",
         "code": "fees1",
@@ -843,7 +1596,82 @@
       },
       {
         "text": "Exploring Society India and Beyond (Punjabi)",
-        "code": "fpnres1",
+        "code": "fpnes1",
+        "chapters": "0-14"
+      },
+      {
+        "text": "Exploring Society India and Beyond (Dogri)",
+        "code": "fdges1",
+        "chapters": "0-14"
+      },
+      {
+        "text": "Exploring Society India and Beyond (Gujrati)",
+        "code": "fgjes1",
+        "chapters": "0-14"
+      },
+      {
+        "text": "Exploring Society India and Beyond (Malayalam)",
+        "code": "fmles1",
+        "chapters": "0-14"
+      },
+      {
+        "text": "Exploring Society India and Beyond (Sanskrit)",
+        "code": "fskes1",
+        "chapters": "0-14"
+      },
+      {
+        "text": "Exploring Society India and Beyond (Bengali)",
+        "code": "fbnes1",
+        "chapters": "0-14"
+      },
+      {
+        "text": "Exploring Society India and Beyond (Bodo)",
+        "code": "fbdes1",
+        "chapters": "0-14"
+      },
+      {
+        "text": "Exploring Society India and Beyond (Maithili)",
+        "code": "fmtes1",
+        "chapters": "0-14"
+      },
+      {
+        "text": "Exploring Society India and Beyond (Nepali)",
+        "code": "fnpes1",
+        "chapters": "0-14"
+      },
+      {
+        "text": "Exploring Society India and Beyond (Tamil)",
+        "code": "ftmes1",
+        "chapters": "0-14"
+      },
+      {
+        "text": "Exploring Society India and Beyond (Telugu)",
+        "code": "ftles1",
+        "chapters": "0-14"
+      },
+      {
+        "text": "Muashre Ki Daryaft Hindustan aur Us Se Aage (Urdu)",
+        "code": "fues1",
+        "chapters": "0-14"
+      },
+      {
+        "text": "Exploring Society India and Beyond (Santhali)",
+        "code": "fsnes1",
+        "chapters": "0-14"
+      },
+      {
+        "text": "Exploring Society India and Beyond (Assamese)",
+        "code": "fases1",
+        "chapters": "0-14"
+      },
+      {
+        "text": "Exploring Society India and Beyond (Konkani)",
+        "code": "fkoes1",
+        "chapters": "0-14"
+      },
+      {
+        "text": "Exploring Society India and Beyond (Sindhi)",
+        "code": "fsies1",
         "chapters": "0-14"
       }
     ],
@@ -851,7 +1679,7 @@
       {
         "text": "Deepakam",
         "code": "fsde1",
-        "chapters": "0-15"
+        "chapters": "0-16"
       }
     ],
     "Science": [
@@ -904,6 +1732,91 @@
         "text": "Curiosity (Odia)",
         "code": "forcu1",
         "chapters": "0-12"
+      },
+      {
+        "text": "Curiosity (Konkani)",
+        "code": "fkocu1",
+        "chapters": "0-12"
+      },
+      {
+        "text": "Curiosity (Manipuri)",
+        "code": "fmncu1",
+        "chapters": "0-12"
+      },
+      {
+        "text": "Curiosity (Nepali)",
+        "code": "fnpcu1",
+        "chapters": "0-12"
+      },
+      {
+        "text": "Curiosity (Sanskrit)",
+        "code": "fskcu1",
+        "chapters": "0-12"
+      },
+      {
+        "text": "Curiosity (Telugu)",
+        "code": "ftlcu1",
+        "chapters": "0-12"
+      },
+      {
+        "text": "Curiosity (Assamese)",
+        "code": "fascu1",
+        "chapters": "0-12"
+      },
+      {
+        "text": "Curiosity (Marathi)",
+        "code": "fmrcu1",
+        "chapters": "0-12"
+      },
+      {
+        "text": "Curiosity (Bodo)",
+        "code": "fbdcu1",
+        "chapters": "0-12"
+      },
+      {
+        "text": "Curiosity (Dogri)",
+        "code": "fdgcu1",
+        "chapters": "0-12"
+      },
+      {
+        "text": "Curiosity (Gujarati)",
+        "code": "fgjcu1",
+        "chapters": "0-12"
+      },
+      {
+        "text": "Curiosity (Santhali)",
+        "code": "fsncu1",
+        "chapters": "0-12"
+      },
+      {
+        "text": "Curiosity (Kashmiri)",
+        "code": "fkscu1",
+        "chapters": "0-12"
+      },
+      {
+        "text": "Curiosity (Sindhi)",
+        "code": "fsicu1",
+        "chapters": "0-12"
+      },
+      {
+        "text": "Vigyan",
+        "code": "fhsc1",
+        "chapters": "0-11"
+      },
+      {
+        "text": "Science",
+        "code": "fesc1",
+        "chapters": "0-11"
+      },
+      {
+        "text": "science-VI(Urdu)",
+        "code": "fuse1",
+        "chapters": "0-16"
+      },
+      {
+        "text": "Exemplar Problem",
+        "code": "feep2",
+        "chapters": "0-16"
       }
     ],
     "Arts": [
@@ -959,7 +1872,62 @@
       },
       {
         "text": "Kriti-I (Tamil)",
+        "code": "ftmkr1",
+        "chapters": "0-22"
+      },
+      {
+        "text": "Kriti-I (Gujarati)",
+        "code": "fgjkr1",
+        "chapters": "0-22"
+      },
+      {
+        "text": "Kriti-I (Kannada)",
+        "code": "fknkr1",
+        "chapters": "0-22"
+      },
+      {
+        "text": "Kriti-I (Malayalam)",
+        "code": "fmlkr1",
+        "chapters": "0-22"
+      },
+      {
+        "text": "Kriti-I (Marathi)",
+        "code": "fmrkr1",
+        "chapters": "0-22"
+      },
+      {
+        "text": "Kriti-I (Sanskrit)",
+        "code": "fskkr1",
+        "chapters": "0-22"
+      },
+      {
+        "text": "Kriti-I (Nepali)",
+        "code": "fnpkr1",
+        "chapters": "0-22"
+      },
+      {
+        "text": "Kriti-I (Punjabi)",
+        "code": "fpnkr1",
+        "chapters": "0-22"
+      },
+      {
+        "text": "Kriti-I (Telugu)",
         "code": "ftlkr1",
+        "chapters": "0-22"
+      },
+      {
+        "text": "Kriti-I (Kashmiri)",
+        "code": "fkskr1",
+        "chapters": "0-22"
+      },
+      {
+        "text": "Kriti-I (Sindhi)",
+        "code": "fsikr1",
+        "chapters": "0-22"
+      },
+      {
+        "text": "Kriti-I (Santhali)",
+        "code": "fsnkr1",
         "chapters": "0-22"
       }
     ],
@@ -968,164 +1936,255 @@
         "text": "Khayal",
         "code": "fuky1",
         "chapters": "0-14"
+      },
+      {
+        "text": "Apni Zuban-VI",
+        "code": "fuaz1",
+        "chapters": "0-20"
+      },
+      {
+        "text": "Urdu Guldasta",
+        "code": "fuug1",
+        "chapters": "0-10"
+      },
+      {
+        "text": "Jaan Pahechan ",
+        "code": "fujp1",
+        "chapters": "0-32"
+      },
+      {
+        "text": "Riyazi-VI",
+        "code": "furi1",
+        "chapters": "0-14"
+      },
+      {
+        "text": "science-VI",
+        "code": "fuse1",
+        "chapters": "0-16"
+      },
+      {
+        "text": "Hamare Mazi",
+        "code": "fuhm1",
+        "chapters": "0-12"
+      },
+      {
+        "text": "Zameen Hamara Maskan",
+        "code": "fuzm1",
+        "chapters": "0-8"
+      },
+      {
+        "text": "Samazi Aur Siyasi Zindagi",
+        "code": "fuss1",
+        "chapters": "0-8"
       }
     ]
   },
   "7": {
+    "Class 7": [
+      {
+        "text": "Class 7",
+        "code": "class4",
+        "chapters": "0-1"
+      }
+    ],
     "Mathematics": [
       {
-        "text": "Ganit",
-        "code": "ghmh1",
-        "chapters": "0-13"
-      },
-      {
-        "text": "Mathmatics",
-        "code": "gemh1",
-        "chapters": "0-13"
-      },
-      {
-        "text": "Hisaab(Urdu)",
-        "code": "guma1",
-        "chapters": "0-15"
-      }
-    ],
-    "Science": [
-      {
-        "text": "Science",
-        "code": "gesc1",
-        "chapters": "0-13"
-      },
-      {
-        "text": "Vigyan",
-        "code": "ghsc1",
-        "chapters": "0-13"
-      },
-      {
-        "text": "Science(Urdu)",
-        "code": "guse1",
-        "chapters": "0-18"
-      }
-    ],
-    "English": [
-      {
-        "text": "Honeycomb",
-        "code": "gehc1",
+        "text": "Ganita Prakash",
+        "code": "gegp1",
         "chapters": "0-8"
       },
       {
-        "text": "An alien Hand Supplementry Reader",
-        "code": "geah1",
+        "text": "Ganita Prakash-II",
+        "code": "gegp2",
         "chapters": "0-7"
+      },
+      {
+        "text": "Ganita Prakash(Hindi)",
+        "code": "ghgp1",
+        "chapters": "0-8"
+      },
+      {
+        "text": "Ganita Prakash(Urdu)",
+        "code": "gugp1",
+        "chapters": "0-8"
+      },
+      {
+        "text": "Exemplar Problem(English)",
+        "code": "gemp1",
+        "chapters": "0-13"
+      }
+    ],
+    "Arts": [
+      {
+        "text": "Kriti",
+        "code": "gekr1",
+        "chapters": "0-20"
+      },
+      {
+        "text": "Kriti-I (Hindi)",
+        "code": "ghkr1",
+        "chapters": "0-20"
+      },
+      {
+        "text": "Exemplar Problem(English)",
+        "code": "gemp1",
+        "chapters": "0-13"
+      }
+    ],
+    "Hindi": [
+      {
+        "text": "Malhar",
+        "code": "ghml1",
+        "chapters": "0-10"
+      },
+      {
+        "text": "Exemplar Problem(English)",
+        "code": "gemp1",
+        "chapters": "0-13"
       }
     ],
     "Sanskrit": [
       {
-        "text": "Ruchira",
-        "code": "ghsk1",
+        "text": "Deepakam",
+        "code": "gsde1",
+        "chapters": "0-15"
+      },
+      {
+        "text": "Exemplar Problem(English)",
+        "code": "gemp1",
+        "chapters": "0-13"
+      }
+    ],
+    "Science": [
+      {
+        "text": "Curiosity",
+        "code": "gecu1",
+        "chapters": "0-12"
+      },
+      {
+        "text": "Jigyasa",
+        "code": "ghcu1",
+        "chapters": "0-12"
+      },
+      {
+        "text": "Tajassus",
+        "code": "gucu1",
+        "chapters": "0-12"
+      },
+      {
+        "text": "Exemplar Problem(English)",
+        "code": "gemp1",
+        "chapters": "0-13"
+      }
+    ],
+    "English": [
+      {
+        "text": "Poorvi",
+        "code": "gepr1",
+        "chapters": "0-5"
+      },
+      {
+        "text": "Exemplar Problem(English)",
+        "code": "gemp1",
         "chapters": "0-13"
       }
     ],
     "Social Science": [
       {
-        "text": "Social and Political Life",
-        "code": "gess3",
+        "text": "Exploring Society India and Beyond Part-I",
+        "code": "gees1",
+        "chapters": "0-12"
+      },
+      {
+        "text": "Samaj Ka Aadhyan: Bharat or uske aage Part-I",
+        "code": "ghes1",
+        "chapters": "0-12"
+      },
+      {
+        "text": "Exploring Society India and Beyond Part-II",
+        "code": "gees2",
         "chapters": "0-8"
       },
       {
-        "text": "Samajik aur Rajniti Jeevan",
-        "code": "ghss3",
-        "chapters": "0-8"
+        "text": "Muashrey ki Daryaft - Hindustan aur Uske age Part-I",
+        "code": "gues1",
+        "chapters": "0-12"
       },
       {
-        "text": "Samajik Aur Siyasi Zindagi",
-        "code": "guss3",
-        "chapters": "0-9"
-      },
-      {
-        "text": "Our Pasts-II",
-        "code": "gess1",
-        "chapters": "0-8"
-      },
-      {
-        "text": "Hamare Ateet-II",
-        "code": "ghss1",
-        "chapters": "0-8"
-      },
-      {
-        "text": "Our Environment",
-        "code": "gess2",
-        "chapters": "0-7"
-      },
-      {
-        "text": "Hamara Paryavaran",
-        "code": "ghss2",
-        "chapters": "0-7"
-      },
-      {
-        "text": "Hamare Maazi(Urdu)",
-        "code": "guhm1",
-        "chapters": "0-10"
-      },
-      {
-        "text": "Hamare Mahol(Urdu))",
-        "code": "guha1",
-        "chapters": "0-9"
+        "text": "Exemplar Problem(English)",
+        "code": "gemp1",
+        "chapters": "0-13"
       }
     ],
-    "Hindi": [
+    "Physical Education and Well Being": [
       {
-        "text": "Vasant",
-        "code": "ghvs1",
-        "chapters": "0-15"
+        "text": "Khel Yatra",
+        "code": "geky1",
+        "chapters": "0-6"
       },
       {
-        "text": "Durva",
-        "code": "ghdv1",
-        "chapters": "0-18"
+        "text": "Khel Yatra (Urdu)",
+        "code": "gukl1",
+        "chapters": "0-6"
       },
       {
-        "text": "Mahabharat",
-        "code": "ghmb1",
-        "chapters": "0-1"
+        "text": "Khel Yatra (Hindi)",
+        "code": "ghky1",
+        "chapters": "0-6"
+      },
+      {
+        "text": "Exemplar Problem(English)",
+        "code": "gemp1",
+        "chapters": "0-13"
+      }
+    ],
+    "Vocational Education": [
+      {
+        "text": "Kaushal Bodh",
+        "code": "gekb1",
+        "chapters": "0-7"
+      },
+      {
+        "text": "Kaushal Bodh(Hindi)",
+        "code": "ghkb1",
+        "chapters": "0-7"
+      },
+      {
+        "text": "Exemplar Problem(English)",
+        "code": "gemp1",
+        "chapters": "0-13"
       }
     ],
     "Urdu": [
       {
-        "text": "Apni Zaban",
-        "code": "guaz1",
-        "chapters": "0-21"
+        "text": "Khayal",
+        "code": "guky1",
+        "chapters": "0-14"
       },
       {
-        "text": "Urdu Guldasta-Suppl",
-        "code": "gugu1",
-        "chapters": "0-15"
-      },
-      {
-        "text": "Door - Pass",
-        "code": "gudp1",
-        "chapters": "0-26"
-      },
-      {
-        "text": "Jaan Pahechan",
-        "code": "gujp1",
-        "chapters": "0-20"
+        "text": "Exemplar Problem(English)",
+        "code": "gemp1",
+        "chapters": "0-13"
       }
     ]
   },
   "8": {
-    "English": [
+    "Mathematics": [
       {
-        "text": "Honeydew",
-        "code": "hehd1",
-        "chapters": "0-8"
+        "text": "Ganita Prakash Part-I",
+        "code": "hegp1",
+        "chapters": "0-7"
       },
       {
-        "text": "It So Happend",
-        "code": "heih1",
-        "chapters": "0-8"
-      }
-    ],
-    "Mathematics": [
+        "text": "Ganita Prakash Part-II",
+        "code": "hegp2",
+        "chapters": "0-7"
+      },
+      {
+        "text": "Ganita Prakash (Hindi)",
+        "code": "hhgp1",
+        "chapters": "0-7"
+      },
       {
         "text": "Mathematics",
         "code": "hemh1",
@@ -1140,16 +2199,41 @@
         "text": "Riyazi(Urdu)",
         "code": "huhi1",
         "chapters": "0-16"
+      },
+      {
+        "text": "Exemplar Problem(English)",
+        "code": "heep2",
+        "chapters": "0-13"
+      },
+      {
+        "text": "Exemplar Problem(Hindi)",
+        "code": "hhep2",
+        "chapters": "0-13"
+      },
+      {
+        "text": "Hisab(Urdu)",
+        "code": "",
+        "chapters": ""
       }
     ],
-    "Sanskrit": [
+    "Arts": [
       {
-        "text": "Ruchira",
-        "code": "hhsk1",
-        "chapters": "0-14"
+        "text": "Kriti",
+        "code": "hekr1",
+        "chapters": "0-19"
+      },
+      {
+        "text": "Kriti (Urdu)",
+        "code": "hukr1",
+        "chapters": "0-19"
       }
     ],
     "Hindi": [
+      {
+        "text": "Malhar",
+        "code": "hhml1",
+        "chapters": "0-10"
+      },
       {
         "text": "Vasant",
         "code": "hhvs1",
@@ -1171,7 +2255,34 @@
         "chapters": "0-5"
       }
     ],
+    "Sanskrit": [
+      {
+        "text": "Deepakam",
+        "code": "hsde1",
+        "chapters": "0-16"
+      },
+      {
+        "text": "Ruchira",
+        "code": "hhsk1",
+        "chapters": "0-14"
+      }
+    ],
     "Science": [
+      {
+        "text": "Curiosity",
+        "code": "hecu1",
+        "chapters": "0-13"
+      },
+      {
+        "text": "Jigyasa",
+        "code": "hhcu1",
+        "chapters": "0-13"
+      },
+      {
+        "text": "Tejassus",
+        "code": "hucu1",
+        "chapters": "0-13"
+      },
       {
         "text": "Science",
         "code": "hesc1",
@@ -1186,9 +2297,51 @@
         "text": "Science(Urdu)",
         "code": "huse1",
         "chapters": "0-18"
+      },
+      {
+        "text": "Exemplar Problems",
+        "code": "heep1",
+        "chapters": "0-18"
+      },
+      {
+        "text": "Science Aur Technology (Urdu)",
+        "code": "",
+        "chapters": ""
+      }
+    ],
+    "English": [
+      {
+        "text": "Poorvi",
+        "code": "hepr1",
+        "chapters": "0-5"
+      },
+      {
+        "text": "Honeydew",
+        "code": "hehd1",
+        "chapters": "0-8"
+      },
+      {
+        "text": "It So Happend",
+        "code": "heih1",
+        "chapters": "0-8"
       }
     ],
     "Social Science": [
+      {
+        "text": "Exploring Society India and Beyond Part-I",
+        "code": "hees1",
+        "chapters": "0-7"
+      },
+      {
+        "text": "Samaj Ka Aadhyan: Bharat or uske aage Part-I",
+        "code": "hhes1",
+        "chapters": "0-7"
+      },
+      {
+        "text": "Muashrey ki Daryaft - Hindustan Aur Uske Age Part-I ",
+        "code": "hues1",
+        "chapters": "0-7"
+      },
       {
         "text": "Resource And Development(Geography)",
         "code": "hess4",
@@ -1220,6 +2373,16 @@
         "chapters": "0-8"
       },
       {
+        "text": "Our-Pasts-III (Part-II) ",
+        "code": "hess2",
+        "chapters": "0-6"
+      },
+      {
+        "text": "Hamare Atit-III (Bhag-II) ",
+        "code": "hhss2",
+        "chapters": "0-6"
+      },
+      {
         "text": "Wasayel aur Taraqqui(Urdu)",
         "code": "hugy1",
         "chapters": "0-6"
@@ -1233,16 +2396,33 @@
         "text": "Hamare Maazi-III (Urdu)",
         "code": "huhm1",
         "chapters": "0-8"
+      },
+      {
+        "text": "Hamare Maazi Part-II(Urdu)",
+        "code": "huhm2",
+        "chapters": "0-6"
       }
     ],
-    "Environmental Education": [
+    "Physical Education and Well Being": [
       {
-        "text": "Project Books",
-        "code": "/book_publishing/envedu/8/8.htm",
-        "chapters": ""
+        "text": "Khel Yatra",
+        "code": "heky1",
+        "chapters": "0-6"
+      }
+    ],
+    "Vocational Education": [
+      {
+        "text": "Kaushal Bodh",
+        "code": "hekb1",
+        "chapters": "0-8"
       }
     ],
     "Urdu": [
+      {
+        "text": "Khayal",
+        "code": "huky1",
+        "chapters": "0-21"
+      },
       {
         "text": "Apni Zaban",
         "code": "huaz1",
@@ -1262,6 +2442,20 @@
         "text": "Jaan Pahechan",
         "code": "hujp1",
         "chapters": "0-20"
+      }
+    ],
+    "Class 8": [
+      {
+        "text": "Class 8",
+        "code": "class4",
+        "chapters": "0-1"
+      }
+    ],
+    "Environmental Education": [
+      {
+        "text": "Project Books",
+        "code": "",
+        "chapters": ""
       }
     ]
   },
@@ -1337,6 +2531,16 @@
         "text": "Reyazi (Urdu)",
         "code": "iumh1",
         "chapters": "0-15"
+      },
+      {
+        "text": "Exemplar Problem(English)",
+        "code": "ieep2",
+        "chapters": "0-16"
+      },
+      {
+        "text": "Exemplar Problem(Hindi)",
+        "code": "ihep2",
+        "chapters": "0-16"
       }
     ],
     "Science": [
@@ -1354,6 +2558,26 @@
         "text": "Science (Urdu)",
         "code": "iusc1",
         "chapters": "0-15"
+      },
+      {
+        "text": "Exemplar Problem(English)",
+        "code": "ieep1",
+        "chapters": "0-17"
+      },
+      {
+        "text": "Exemplar Problem(Hindi)",
+        "code": "ihep1",
+        "chapters": "0-17"
+      },
+      {
+        "text": "Lab Manual(English))",
+        "code": "ielm1",
+        "chapters": "0-5"
+      },
+      {
+        "text": "Lab Manual(Hindi)",
+        "code": "ihlm1",
+        "chapters": "0-5"
       }
     ],
     "Urdu": [
@@ -1390,22 +2614,22 @@
     ],
     "Social Science": [
       {
-        "text": "Democratic Politics",
+        "text": "Democratic Politics-I",
         "code": "iess4",
         "chapters": "0-5"
       },
       {
-        "text": "Loktantrik Rajniti",
+        "text": "Loktantrik Rajniti-I",
         "code": "ihss4",
         "chapters": "0-5"
       },
       {
-        "text": "Contemporary India",
+        "text": "Contemporary India-I",
         "code": "iess1",
         "chapters": "0-6"
       },
       {
-        "text": "Samkalin Bharat",
+        "text": "Samkalin Bharat-I",
         "code": "ihss1",
         "chapters": "0-6"
       },
@@ -1430,7 +2654,12 @@
         "chapters": "0-5"
       },
       {
-        "text": "Jamhuri Syasat(Urdu)",
+        "text": "Geographia(Urdu)",
+        "code": "iuge1",
+        "chapters": "0-6"
+      },
+      {
+        "text": "Jamhuri Syasat(Urdu)-I",
         "code": "iuss4",
         "chapters": "0-6"
       },
@@ -1440,7 +2669,7 @@
         "chapters": "0-5"
       },
       {
-        "text": "Aasri Hindustan (Urdu)",
+        "text": "Aasri Hindustan (Urdu)-I",
         "code": "iuss1",
         "chapters": "0-6"
       },
@@ -1453,7 +2682,7 @@
     "Environmental Education": [
       {
         "text": "Project Books",
-        "code": "textbook.php?iepb1=pp-0",
+        "code": "",
         "chapters": ""
       }
     ],
@@ -1540,6 +2769,16 @@
         "text": "Riyazi",
         "code": "jumh1",
         "chapters": "0-15"
+      },
+      {
+        "text": "Exemplars Problem(English)",
+        "code": "jeep2",
+        "chapters": "0-14"
+      },
+      {
+        "text": "Exemplars Problem(Hindi)",
+        "code": "jhep2",
+        "chapters": "0-14"
       }
     ],
     "Science": [
@@ -1557,6 +2796,26 @@
         "text": "Science(Urdu)",
         "code": "jusc1",
         "chapters": "0-16"
+      },
+      {
+        "text": "Exemplar Problem(English)",
+        "code": "jeep1",
+        "chapters": "0-18"
+      },
+      {
+        "text": "Exemplar Problem(Hindi)",
+        "code": "jhep1",
+        "chapters": "0-18"
+      },
+      {
+        "text": "Lab Manual(English)",
+        "code": "jelm1",
+        "chapters": "0-6"
+      },
+      {
+        "text": "Lab Manual(Hindi)",
+        "code": "jhlm1",
+        "chapters": "0-6"
       }
     ],
     "Hindi": [
@@ -1686,7 +2945,7 @@
       {
         "text": "Nawa-e-Urdu",
         "code": "june1",
-        "chapters": "0-23"
+        "chapters": "0-14"
       },
       {
         "text": "Jaan Pahechan",
@@ -1805,6 +3064,31 @@
         "text": "Keemiya II",
         "code": "kuch2",
         "chapters": "0-7"
+      },
+      {
+        "text": "Online Chemistry book Part I",
+        "code": "",
+        "chapters": ""
+      },
+      {
+        "text": "Exemplar Problems(English)",
+        "code": "keep5",
+        "chapters": "0-15"
+      },
+      {
+        "text": "Exemplar Problems(Hindi)",
+        "code": "khep5",
+        "chapters": "0-15"
+      },
+      {
+        "text": "Lab Manual(English)",
+        "code": "kelm2",
+        "chapters": "0-8"
+      },
+      {
+        "text": "Lab Manual(Hindi)",
+        "code": "khlm2",
+        "chapters": "0-8"
       }
     ],
     "Mathematics": [
@@ -1822,6 +3106,16 @@
         "text": "Riyazi I",
         "code": "kumh1",
         "chapters": "0-16"
+      },
+      {
+        "text": "Exemplar Problems(English)",
+        "code": "keep2",
+        "chapters": "0-18"
+      },
+      {
+        "text": "Exemplar Problems(Hindi)",
+        "code": "khep2",
+        "chapters": "0-18"
       }
     ],
     "Vocational": [
@@ -1856,7 +3150,13 @@
         "chapters": "0-6"
       }
     ],
-    "Statistics": [],
+    "Statistics": [
+      {
+        "text": "Shumariat bara-e-mushaiat",
+        "code": "",
+        "chapters": ""
+      }
+    ],
     "Biology": [
       {
         "text": "Biology",
@@ -1872,6 +3172,36 @@
         "text": "Hayatiyaat",
         "code": "kubo1",
         "chapters": "0-22"
+      },
+      {
+        "text": "Hayatiyaat II",
+        "code": "kubo2",
+        "chapters": "0-12"
+      },
+      {
+        "text": "Human Ecology and Family Sciences Part I ",
+        "code": "kehe1",
+        "chapters": "0-2"
+      },
+      {
+        "text": "Human Ecology and Family Sciences Part II ",
+        "code": "kehe2",
+        "chapters": "0-2"
+      },
+      {
+        "text": "Exemplar Problems(English)",
+        "code": "keep4",
+        "chapters": "0-25"
+      },
+      {
+        "text": "Exemplar Problems(Hindi)",
+        "code": "khep4",
+        "chapters": "0-25"
+      },
+      {
+        "text": "Lab Manual(English)",
+        "code": "kelm3",
+        "chapters": "0-17"
       }
     ],
     "Home Science": [
@@ -1967,9 +3297,19 @@
         "chapters": "0-14"
       },
       {
+        "text": "Tabai Gugraphiya ke Mubadiyat",
+        "code": "kugy2",
+        "chapters": "0-16"
+      },
+      {
         "text": "Hindustan Tabi'i Mahaul (Urdu)",
         "code": "kugy1",
         "chapters": "0-7"
+      },
+      {
+        "text": "Geographia mein amli kaam (Urdu)",
+        "code": "kugy1",
+        "chapters": "0-8"
       },
       {
         "text": "Pratical Work in Geography",
@@ -2032,6 +3372,21 @@
         "text": "Tabiyaat-II",
         "code": "kuph2",
         "chapters": "0-7"
+      },
+      {
+        "text": "Exemplar Problems(English)",
+        "code": "keep3",
+        "chapters": "0-17"
+      },
+      {
+        "text": "Exemplar Problems(Hindi)",
+        "code": "khep3",
+        "chapters": "0-17"
+      },
+      {
+        "text": "Lab Manual(English)",
+        "code": "kelm1",
+        "chapters": "0-14"
       }
     ],
     "Hindi": [
@@ -2046,6 +3401,11 @@
         "chapters": "0-16"
       },
       {
+        "text": "Vyavaharik Hindi",
+        "code": "",
+        "chapters": ""
+      },
+      {
         "text": "Vitan",
         "code": "khvt1",
         "chapters": "0-5"
@@ -2054,6 +3414,11 @@
         "text": "Antral",
         "code": "khan1",
         "chapters": "0-2"
+      },
+      {
+        "text": "Abhivyakti Aur Madhyam",
+        "code": "lham1",
+        "chapters": "0-18"
       }
     ],
     "Sociology": [
@@ -2122,6 +3487,11 @@
         "chapters": "0-10"
       },
       {
+        "text": "Indian Economic Development(Urdu)",
+        "code": "kuec1",
+        "chapters": "0-10"
+      },
+      {
         "text": "India Constitution at Work",
         "code": "keps2",
         "chapters": "0-10"
@@ -2163,6 +3533,11 @@
       {
         "text": "Hindustan me Dastkari Ki Riwayat",
         "code": "kuhc1",
+        "chapters": "0-10"
+      },
+      {
+        "text": "Dastkari",
+        "code": "kuhc2",
         "chapters": "0-10"
       }
     ],
@@ -2377,6 +3752,16 @@
         "text": "Riyazi-II",
         "code": "lumh2",
         "chapters": "0-7"
+      },
+      {
+        "text": "Exemplar Problems(English)",
+        "code": "leep2",
+        "chapters": "0-16"
+      },
+      {
+        "text": "Exemplar Problems(Hindi)",
+        "code": "lhep2",
+        "chapters": "0-15"
       }
     ],
     "Physics": [
@@ -2409,6 +3794,26 @@
         "text": "Tabiyaat-II",
         "code": "luph2",
         "chapters": "0-6"
+      },
+      {
+        "text": "Examplar Prolems(English)",
+        "code": "leep6",
+        "chapters": "0-17"
+      },
+      {
+        "text": "Examplar Problems(Hindi)",
+        "code": "lhep6",
+        "chapters": "0-17"
+      },
+      {
+        "text": "Lab Manual(English)",
+        "code": "lelm3",
+        "chapters": "0-7"
+      },
+      {
+        "text": "Lab Manual(Hindi)",
+        "code": "lhlm3",
+        "chapters": "0-16"
       }
     ],
     "Hindi": [
@@ -2426,6 +3831,11 @@
         "text": "Vitan",
         "code": "lhvt1",
         "chapters": "0-3"
+      },
+      {
+        "text": "Abhivyakti Aur Madhyam",
+        "code": "lham1",
+        "chapters": "0-18"
       },
       {
         "text": "Antral Bhag 2",
@@ -2472,6 +3882,21 @@
         "text": "Hayatiyaat",
         "code": "lubo1",
         "chapters": "0-16"
+      },
+      {
+        "text": "Human Ecology and Family Sciences Part I ",
+        "code": "lehe1",
+        "chapters": "0-10"
+      },
+      {
+        "text": "Exemplar Problems",
+        "code": "leep4",
+        "chapters": "0-19"
+      },
+      {
+        "text": "Lab Manual(English)",
+        "code": "lelm2",
+        "chapters": "0-16"
       }
     ],
     "History": [
@@ -2508,7 +3933,7 @@
       {
         "text": "Tareekh-e-Hind ke Mauzuaat-I(Urdu)",
         "code": "luth1",
-        "chapters": "0-4"
+        "chapters": "0-5"
       },
       {
         "text": "Tareekh-e-Hind ke Mauzuaat-II(Urdu)",
@@ -2637,6 +4062,26 @@
         "text": "Rasayan vigyan bhag II",
         "code": "lhch2",
         "chapters": "0-5"
+      },
+      {
+        "text": "Exemplar Problems",
+        "code": "leep5",
+        "chapters": "0-18"
+      },
+      {
+        "text": "Exemplar Problems(Hindi)",
+        "code": "lhep4",
+        "chapters": "0-17"
+      },
+      {
+        "text": "Lab Manual(English)",
+        "code": "lelm1",
+        "chapters": "0-11"
+      },
+      {
+        "text": "Lab Manual(Hindi)",
+        "code": "lhlm1",
+        "chapters": "0-11"
       },
       {
         "text": "Keemiya-I",
@@ -2803,6 +4248,11 @@
     ],
     "Heritage Crafts": [
       {
+        "text": "Craft Tradition Of India",
+        "code": "lehc1",
+        "chapters": "0-9"
+      },
+      {
         "text": "Hindustan me Dastkari Ki Riwayat",
         "code": "luhc1",
         "chapters": "0-9"
@@ -2918,15 +4368,6 @@
         "text": "Izhar Aur Zara-e-Izhar",
         "code": "kuiz1",
         "chapters": "0-4"
-      }
-    ]
-  },
-  "14": {
-    "Vocational": [
-      {
-        "text": "Organic Farming",
-        "code": "geof1",
-        "chapters": "0-5"
       }
     ]
   }

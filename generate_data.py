@@ -1,71 +1,65 @@
+#!/usr/bin/env python3
+"""Fetch the NCERT textbook page and regenerate data.json."""
+
 import re
 import json
 from pathlib import Path
 
-def parse_book_data():
-    try:
-        # Read the script file
-        script_path = Path('./sourceScript.js')
-        with script_path.open('r', encoding='utf-8') as f:
-            script_content = f.read()
+import requests
 
-        # Result dictionary with nested structure
-        result = {}
+NCERT_URL = "https://ncert.nic.in/textbook.php"
 
-        # Split into conditions and process each
-        conditions = [c.strip() for c in script_content.split('else if')]
 
-        for condition in conditions:
-            # Extract class
-            class_match = re.search(r'tclass\.value\s*==\s*(\d+)', condition)
-            class_value = class_match.group(1) if class_match else None
+def fetch_script(url: str) -> str:
+    """Download the NCERT page and return the JS block containing change1()."""
+    r = requests.get(url, timeout=15)
+    r.raise_for_status()
+    blocks = re.findall(r"<script[^>]*>(.*?)</script>", r.text, re.DOTALL | re.IGNORECASE)
+    for block in blocks:
+        if "tclass.value" in block:
+            return block
+    raise ValueError("Could not find book-data script block in the page")
 
-            # Extract subject
-            subject_match = re.search(r'tsubject\.options\[sind\]\.text\s*==\s*"([^"]+)"', condition)
-            subject = subject_match.group(1) if subject_match else None
 
-            # Skip if no class or subject, or if subject is placeholder
-            if not class_value or not subject or subject == "..Select Subject..":
+def parse_script(script: str) -> dict:
+    """Parse the change1() if-else chain into {class: {subject: [books]}}."""
+    result = {}
+    for condition in script.split("else if"):
+        class_m = re.search(r'tclass\.value\s*==\s*(\d+)', condition)
+        subj_m  = re.search(r'tsubject\.options\[sind\]\.text\s*==\s*"([^"]+)"', condition)
+        if not class_m or not subj_m:
+            continue
+        cls, subj = class_m.group(1), subj_m.group(1)
+        if subj == "..Select Subject..":
+            continue
+
+        result.setdefault(cls, {}).setdefault(subj, [])
+
+        book_pat = (
+            r'tbook\.options\[(\d+)\]\.text\s*=\s*"([^"]+)";'
+            r'[\s\S]*?tbook\.options\[\1\]\.value\s*=\s*"([^"]+)"'
+        )
+        for m_book in re.finditer(book_pat, condition):
+            _, title, full_code = m_book.groups()
+            if title in ("..Select Book Title..", "") or not title.strip():
                 continue
+            m = re.match(r'textbook\.php\?([a-zA-Z0-9]+)=(\d+-\d+)', full_code)
+            result[cls][subj].append({
+                "text":     title,
+                "code":     m.group(1) if m else "",
+                "chapters": m.group(2) if m else "",
+            })
+    return result
 
-            # Initialize nested structure
-            if class_value not in result:
-                result[class_value] = {}
-            if subject not in result[class_value]:
-                result[class_value][subject] = []
 
-            # Extract all book options
-            book_pattern = r'tbook\.options\[(\d+)\]\.text\s*=\s*"([^"]+)";[\s\S]*?tbook\.options\[\1\]\.value\s*=\s*"([^"]+)"'
-            book_matches = re.finditer(book_pattern, condition)
+def main():
+    print(f"Fetching {NCERT_URL} …")
+    data = parse_script(fetch_script(NCERT_URL))
+    out = Path(__file__).parent / "data.json"
+    out.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
+    books = sum(len(b) for s in data.values() for b in s.values())
+    print(f"Written {out}  ({len(data)} classes, {books} books)")
 
-            for match in book_matches:
-                index, title, full_code = match.groups()
-
-                # Skip placeholder and empty titles
-                if title == "..Select Book Title.." or not title.strip():
-                    continue
-
-                # Parse code and chapters from URL
-                code_match = re.match(r'textbook\.php\?([a-zA-Z0-9]+)=(\d+-\d+)', full_code)
-                code = code_match.group(1) if code_match else full_code
-                chapters = code_match.group(2) if code_match else ""
-
-                # Add book data
-                result[class_value][subject].append({
-                    "text": title,
-                    "code": code,
-                    "chapters": chapters
-                })
-
-        # Write to JSON file
-        output_path = Path('./data.json')
-        with output_path.open('w', encoding='utf-8') as f:
-            json.dump(result, f, indent=2, ensure_ascii=False)
-
-        print("Successfully parsed sourceScript.js and updated data.json")
-
-    except Exception as e:
-        print(f"Error processing files: {str(e)}")
 
 if __name__ == "__main__":
-    parse_book_data()
+    main()
